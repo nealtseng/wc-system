@@ -1,0 +1,38 @@
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+/server
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/coverage/
+frontend/.DS_Store
+frontend/*.log
+
+# IDE & OS
+.cursor/
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Docker volumes (local only)
+postgres_data/
+
+# Local temp / runtime artifacts
+tmp_signals.json

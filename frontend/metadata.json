@@ -1,0 +1,8 @@
+{
+  "name": "Quant Football Alpha",
+  "description": "Quant Football Alpha Prediction System - Admin Dashboard",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

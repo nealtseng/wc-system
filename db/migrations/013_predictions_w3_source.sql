@@ -1,0 +1,1 @@
+ALTER TABLE predictions ADD COLUMN IF NOT EXISTS w3_source VARCHAR(20);
